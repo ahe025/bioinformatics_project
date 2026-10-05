@@ -1,4 +1,4 @@
-# Teiko Technical
+# Bioinformatics Project
 Data analysis of cell count information for various immune cell populations of patient samples.
 
 ## Instructions
