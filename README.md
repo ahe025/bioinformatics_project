@@ -32,5 +32,5 @@ Run the Python programs in the following order:
 * To count the number of subjects who were responders/non-responders and males/females, pandas `groupby()` is first used on the `response` or `sex` categories, then the `subject` column is selected, and `nunique()` is called. Since we are counting subjects instead of samples, this method does not assume that the number of subjects equals the number of samples (although it is true in this case).
 * The counts `project_count`, `response_count`, and `sex_count` are saved as SQLite Databases to [cell_count.db](https://github.com/ahe025/teiko_technical/blob/main/cell_count.db).
 
-## Interactive Dashboard of Final Results
+## Interactive dashboard of final results
 Dashboard link: https://teikotechnicaldashboard.streamlit.app/
